@@ -71,8 +71,8 @@ To run this API, you need to have the following installed on your system:
 ### Update an Product
 
 ```http
-    // PUT /api/products/:id
-    // Content-Type: application/json
+    PUT /api/products/:id
+    Content-Type: application/json
 
     {
         "name": "Updated Product Name",
