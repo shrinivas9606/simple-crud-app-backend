@@ -41,11 +41,11 @@ To run this API, you need to have the following installed on your system:
 
 ## API Endpoints
 
-- **GET /api/products**: Get all items
-- **GET /api/products/:id**: Get item by ID
-- **POST /api/products**: Create a new item
-- **PUT /api/products/:id**: Update an item by ID
-- **DELETE /api/products/:id**: Delete an item by ID
+- **GET /api/products**: Get all products
+- **GET /api/products/:id**: Get product by ID
+- **POST /api/products**: Create a new product
+- **PUT /api/products/:id**: Update an product by ID
+- **DELETE /api/products/:id**: Delete an product by ID
 
 ## Sample Usage
 
