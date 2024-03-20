@@ -41,50 +41,50 @@ To run this API, you need to have the following installed on your system:
 
 ## API Endpoints
 
-- **GET /api/items**: Get all items
-- **GET /api/items/:id**: Get item by ID
-- **POST /api/items**: Create a new item
-- **PUT /api/items/:id**: Update an item by ID
-- **DELETE /api/items/:id**: Delete an item by ID
+- **GET /api/products**: Get all items
+- **GET /api/products/:id**: Get item by ID
+- **POST /api/products**: Create a new item
+- **PUT /api/products/:id**: Update an item by ID
+- **DELETE /api/products/:id**: Delete an item by ID
 
 ## Sample Usage
 
-### Get all items
+### Get all Products
 
 ```http
-    GET /api/items
+    GET /api/products
 ```
 
-### Create a new item
+### Create a new Product
 
 ```http
-    POST /api/items
+    POST /api/products
     Content-Type: application/json
 
     {
-        "name": "Item Name",
+        "name": "Product Name",
         "description": "Item Description",
         "price": 9.99
     }
 ```
 
-### Update an item
+### Update an Product
 
 ```http
-    PUT /api/items/:id
-    Content-Type: application/json
+    // PUT /api/products/:id
+    // Content-Type: application/json
 
     {
-        "name": "Updated Item Name",
+        "name": "Updated Product Name",
         "description": "Updated Item Description",
         "price": 19.99
     }
 ```
 
-### Delete an item
+### Delete an Product
 
 ```http
-    DELETE /api/items/:id
+    DELETE /api/products/:id
 ```
 
 ### Contributing
