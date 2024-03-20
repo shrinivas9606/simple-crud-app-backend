@@ -51,13 +51,13 @@ To run this API, you need to have the following installed on your system:
 
 ### Get all items
 
-    ```http
+```http
     GET /api/items
-    ```
+```
 
 ### Create a new item
 
-    ```http
+```http
     POST /api/items
     Content-Type: application/json
 
@@ -66,10 +66,11 @@ To run this API, you need to have the following installed on your system:
         "description": "Item Description",
         "price": 9.99
     }
-    ```
+```
 
 ### Update an item
-    ```http
+
+```http
     PUT /api/items/:id
     Content-Type: application/json
 
@@ -78,12 +79,13 @@ To run this API, you need to have the following installed on your system:
         "description": "Updated Item Description",
         "price": 19.99
     }
-    ```
+```
 
 ### Delete an item
-    ```http
+
+```http
     DELETE /api/items/:id
-    ```
+```
 
 ### Contributing
 
@@ -94,8 +96,9 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-    ```css
+```css
 
-    Feel free to customize this `README.md` file to better suit your project structure, features, and requirements. You can add more details about the project, installation steps, usage examples, or any other relevant information.
-    ```
+    Feel free to customize this `README.md` file to better suit your project structure, features, and requirements. You can add more details about the project, installation 
+    steps, usage examples, or any other relevant information.
+```
 
