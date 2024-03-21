@@ -92,13 +92,6 @@ To run this API, you need to have the following installed on your system:
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
 
-### License
+Feel free to customize this `README.md` file to better suit your project structure, features, and requirements. You can add more details about the project, installation steps, usage examples, or any other relevant information.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-```css
-
-    Feel free to customize this `README.md` file to better suit your project structure, features, and requirements. You can add more details about the project, installation 
-    steps, usage examples, or any other relevant information.
-```
 
